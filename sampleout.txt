@@ -1,0 +1,54 @@
+C:\Users\admin\Documents\cs157p1_>java -cp ";db2jcc4.jar" ProgramLauncher p1.properties
+:: PROGRAM START
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+ID: 181                                                                                             
+:: CREATE NEW CUSTOMER - RUNNING                                                                    
+:: CREATE NEW CUSTOMER - SUCCESS
+ID: 182
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+Account Number: 1040
+:: ACCOUNT SUMMARY - RUNNING
+    Number     Balance
+______________________
+      1000        1000
+      1022    21391023
+      1023    21391023
+
+Total balance:  42783046
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: REPORT A - RUNNING
+        ID             Name      Gender         Age         Pin       Total
+___________________________________________________________________________
+       100      Mitch Avery           F          23         230    42783046
+:: REPORT A - SUCCESS
+
+Welcome to the Self Service Banking System!
+1. New Customer
+2. Customer Login
+3. Exit
+Please enter a number: 2
+Customer Login
+ID: 0
+Pin: 0
+Administrator Main Menu
+1. Account Summary for a Customer
+2. Report A :: Customer Information with Total Balance in Decreasing Order
+3. Report B :: Find the Average Total Balance Between Age Groups
+4. Exit
+Please enter a number: 2
+Customer Information
+:: REPORT A - RUNNING
+        ID             Name      Gender         Age         Pin       Total
+___________________________________________________________________________
+       100      Mitch Avery           F          23         230    42783046
+:: REPORT A - SUCCESS
+
+Administrator Main Menu
